@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My First Professional Website</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* BODY */
+
+body{
+background: linear-gradient(135deg,#4facfe,#00f2fe);
+min-height:100vh;
+color:#333;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#4facfe;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:30px;
+}
+
+nav ul li{
+cursor:pointer;
+font-weight:500;
+}
+
+nav ul li:hover{
+color:#4facfe;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content{
+background:white;
+padding:50px;
+border-radius:15px;
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+max-width:700px;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+color:#555;
+margin-bottom:25px;
+}
+
+/* BUTTON */
+
+button{
+background:#4facfe;
+color:white;
+border:none;
+padding:12px 30px;
+font-size:16px;
+border-radius:8px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#2f80ed;
+transform:scale(1.05);
+}
+
+/* FEATURES */
+
+.features{
+background:white;
+padding:60px 40px;
+text-align:center;
+}
+
+.features h2{
+font-size:32px;
+margin-bottom:40px;
+}
+
+.feature-container{
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.feature{
+background:#f8f8f8;
+padding:30px;
+border-radius:12px;
+width:250px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.feature:hover{
+transform:translateY(-8px);
+}
+
+.feature h3{
+margin-bottom:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+<div class="logo">MyWebsite</div>
+
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Services</li>
+<li>Contact</li>
+</ul>
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Welcome to My Website 🚀</h1>
+
+<p>
+This is a modern webpage built using HTML and CSS.
+You can create beautiful websites and dashboards using these skills.
+</p>
+
+<button>Get Started</button>
+
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
+
+<h2>Our Features</h2>
+
+<div class="feature-container">
+
+<div class="feature">
+<h3>Fast</h3>
+<p>Optimized and lightweight design.</p>
+</div>
+
+<div class="feature">
+<h3>Modern</h3>
+<p>Clean UI with modern styling.</p>
+</div>
+
+<div class="feature">
+<h3>Responsive</h3>
+<p>Works on mobile, tablet and desktop.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+<p>© 2026 MyWebsite | Built with HTML & CSS</p>
+</footer>
+
+</body>
+
+</html>
